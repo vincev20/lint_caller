@@ -5,5 +5,5 @@ on:
 
 jobs:
   java-checks:
-    uses: vincev20/dcxeng-common-lintingtesting2/.github/workflows/lint-test.yml@v1.0.0
+    uses: vincev20/dcxeng-common-lintingtesting2/.github/workflows/lint-test.yml@915255b547ebd0f9f05092a045878f086a0b0a78
     secrets: inherit
