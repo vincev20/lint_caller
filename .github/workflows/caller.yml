@@ -1,0 +1,11 @@
+name: Call shared Java checks
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  java-checks:
+    uses: vincev20/dcxeng-common-lintingtesting2/.github/workflows/lint-test.yml@main
+    secrets: inherit
